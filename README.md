@@ -8,3 +8,16 @@
 -> intersectonWith
 -> pullAllBy
 -> pullAllWith
+-> sortedIndex
+-> sortedIndexBy
+-> sortedLastIndex
+-> sortedLastIndexBy
+-> takeRightWhile
+-> takeWhile
+-> unionWith
+-> uniqWith
+-> unzipWith
+-> xorBy
+-> xorWith
+-> zipObjectDeep
+-> zipWith
