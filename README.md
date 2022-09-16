@@ -21,3 +21,5 @@
 -> xorWith
 -> zipObjectDeep
 -> zipWith
+
+### Collections
