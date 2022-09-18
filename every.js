@@ -1,7 +1,6 @@
 const property = require('./property');
 const matches = require('./matches');
 const matchesProperty = require('./matchesProperty');
-
 const every = (collection, operation) => {
     const operationType = typeof operation;
     switch(operationType){
