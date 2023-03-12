@@ -1,0 +1,31 @@
+{
+  "name": "lightash",
+  "version": "0.1.0",
+  "description": "Lightweight lodash alternate",
+  "main": "lightash.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blank0537/lightash.git"
+  },
+  "keywords": [
+    "lightash"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blank0537/lightash/issues"
+  },
+  "homepage": "https://github.com/blank0537/lightash#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-file": "uglifyjs ./js/test.js -c -m -o ./js/test.min.js",
+    "minify-all": "uglifyjs-folder ./ -eo ./mini --pattern './*.js,!./node_modules'",
+    "minify-in-one": "uglifyjs-folder ./ -o ./lightash.min.js --pattern './*.js,!./lightash.js,!./node_modules'",
+    "browserify": "browserify *.js > bundle.js"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "uglify-js": "^3.17.0",
+    "uglifyjs-folder": "^3.1.3"
+  }
+}
