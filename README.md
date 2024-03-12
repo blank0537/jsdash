@@ -1,4 +1,4 @@
-# plainjsdash
+# lightdash
 
 ## Does not include these lodash methods yet
 ### Array
